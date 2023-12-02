@@ -1,0 +1,141 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="xVLw18DPkMsPsuT4K9rr">
+        <mxGraphModel dx="1377" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ByQCunngg3evoolBHLiS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-1" target="ByQCunngg3evoolBHLiS-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-1" value="start" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3;fontFamily=Comic Sans MS;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="207" y="30" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-2" target="ByQCunngg3evoolBHLiS-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-2" value="numerator, denominator,&lt;br&gt;standardDeviation, length, average = 0" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="103.5" y="100" width="287" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-6" target="ByQCunngg3evoolBHLiS-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-6" value="list" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="207" y="180" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="247" y="480" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="87" y="285"/>
+                            <mxPoint x="87" y="440"/>
+                            <mxPoint x="247" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-11" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;true&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ByQCunngg3evoolBHLiS-10" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6231" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-8" target="ByQCunngg3evoolBHLiS-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-14" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;false&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ByQCunngg3evoolBHLiS-13" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-8" value="i &amp;lt; length" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="197" y="250" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-12" target="ByQCunngg3evoolBHLiS-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-12" value="average += list[i]" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="177" y="370" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="247" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="367" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-15" value="i++" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="327" y="280" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="247" y="790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="87" y="595"/>
+                            <mxPoint x="87" y="750"/>
+                            <mxPoint x="247" y="750"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-19" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;true&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ByQCunngg3evoolBHLiS-18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6231" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-22" target="ByQCunngg3evoolBHLiS-24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-21" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;false&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ByQCunngg3evoolBHLiS-20" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-22" value="i &amp;lt; length" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="197" y="560" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-24" target="ByQCunngg3evoolBHLiS-26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="367" y="700"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-24" value="numerator += Math.pow(list[i], 2)" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="167" y="680" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="247" y="540" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="367" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-26" value="i++" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="327" y="590" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-27" target="ByQCunngg3evoolBHLiS-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-27" value="average /= length" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="177" y="480" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ByQCunngg3evoolBHLiS-29" target="ByQCunngg3evoolBHLiS-33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="237" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-29" value="standardDeviation = Math.sqrt(numerator, denominator)" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="112" y="790" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ByQCunngg3evoolBHLiS-33" target="ByQCunngg3evoolBHLiS-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-33" value="standardDeviation&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fontFamily=Comic Sans MS;fontStyle=3;" parent="1" vertex="1">
+                    <mxGeometry x="162" y="870" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ByQCunngg3evoolBHLiS-34" value="end" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3;fontFamily=Comic Sans MS;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="207" y="940" width="80" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
