@@ -1,7 +1,7 @@
 
-export function standardDesviation(list: number[]): number {
+export function standardDeviation(list: number[]): number {
 
-  let numerator: number = 0, standardDesviation: number = 0,
+  let numerator: number = 0, standardDeviation: number = 0,
     length: number = list.length, average: number = 0, denominator: number = length;
   
   for (let i = 0; i < length; i++) {
@@ -11,7 +11,7 @@ export function standardDesviation(list: number[]): number {
   for (let i = 0; i < length; i++) {
     numerator += Math.pow(list[i] - average, 2);
   }
-  standardDesviation = Math.sqrt(numerator / denominator);
+  standardDeviation = Math.sqrt(numerator / denominator);
 
-  return standardDesviation;
+  return standardDeviation;
 }
