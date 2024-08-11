@@ -55,6 +55,23 @@ class Graph {
       vertex.visited = false;
     }
   }
+
+
+  public DFS() {
+    console.log("DFS from Graph Class");
+    this.DFSRecursion(this.vertices[0]);
+    this.resetVertices();
+  }
+  private DFSRecursion(currentVertex: Vertex) {
+    currentVertex.visited = true;
+    let destinations: Edge[] = currentVertex.vertexLinks;
+    for (let i = 0; i < destinations.length; i++) {
+      if (destinations[i].target.visited === false) {
+        console.log(`${currentVertex.name} -> ${destinations[i].target.name}`);
+        this.DFSRecursion(destinations[i].target);
+      }
+    }
+  }
 }
 
 

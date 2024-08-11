@@ -1,4 +1,4 @@
-import Graph from "./Breadth First Search/Graph";
+import Graph from "./Breadth/Depth First Search/Graph";
 
 const graph = new Graph(["A", "B", "C", "D", "E", "F", "G", "H", "I"]);
 graph.addEdges(0, [1, 2]);
@@ -11,7 +11,7 @@ graph.addEdges(6, [7, 8]);
 graph.addEdges(7, [5, 6, 8]);
 graph.addEdges(8, [6, 7]);
 
-graph.bfs();
+graph.DFS();
 
 /*
 console.log('abc'.charCodeAt(2));
